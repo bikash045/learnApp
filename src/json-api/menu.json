@@ -1,0 +1,58 @@
+[
+    {
+        "id": "key1",
+        "lable": "Home",
+        "url": "/",
+        "dropdown":false,
+        "button":false
+    },
+    {
+        "id": "key2",
+        "lable": "Blog",
+        "url": "/blog",
+        "dropdown":false,
+        "button":false
+    },
+    {
+        "id": "key3",
+        "lable": "Courses",
+        "url": "/",
+        "dropdown":true,
+        "button":false,
+        "dropdownMenu": [
+            {
+                "id": "key5",
+                "lable": "software engineer",
+                "url": "/software engineer",
+                "button":false
+            },
+            {
+                "id": "key6",
+                "lable": "web development",
+                "url": "/web development",
+                "button":false
+            },
+            {
+                "id": "key7",
+                "lable": "robotics",
+                "url": "/robotics",
+                "button":false
+            }
+        ]
+    },
+    {
+        "id":"key9",
+        "lable":"Contact us",
+        "url":"/contact us",
+        "dropdown":false,
+        "button":false
+    },
+
+    {
+        "id":"key8",
+        "lable":"Register Now",
+        "url":"/contact us",
+        "dropdown":false,
+        "button":true
+    }
+]
